@@ -12,30 +12,27 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="App2Views" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" semanticContentAttribute="spatial" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kKs-K3-toY">
-                                <rect key="frame" x="27" y="479" width="374" height="413"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W5g-j9-Lrv">
-                                <rect key="frame" x="27" y="44" width="374" height="413"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="unc-9B-RRR">
+                                <rect key="frame" x="20" y="473" width="388" height="419"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="byr-uP-8bk">
+                                <rect key="frame" x="20" y="44" width="388" height="411"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                            </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="dH9-ES-ZeX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                         <constraints>
-                            <constraint firstItem="W5g-j9-Lrv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FJo-xb-41h"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W5g-j9-Lrv" secondAttribute="trailing" constant="27" id="FZH-k6-qTj"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kKs-K3-toY" secondAttribute="trailing" constant="27" id="INH-F3-4dA"/>
-                            <constraint firstItem="kKs-K3-toY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YT5-aY-NSG"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W5g-j9-Lrv" secondAttribute="trailing" constant="27" id="cWs-z8-wBu"/>
-                            <constraint firstItem="kKs-K3-toY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fbK-Bv-vpL"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kKs-K3-toY" secondAttribute="trailing" constant="27" id="nke-IW-GZP"/>
-                            <constraint firstItem="W5g-j9-Lrv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ubi-2v-wwN"/>
+                            <constraint firstItem="unc-9B-RRR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3NJ-gM-Lvk"/>
+                            <constraint firstItem="unc-9B-RRR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4QX-14-WDg"/>
+                            <constraint firstItem="byr-uP-8bk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hwv-BS-C7c"/>
+                            <constraint firstItem="byr-uP-8bk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sDr-Yf-zVO"/>
                         </constraints>
                     </view>
                 </viewController>
