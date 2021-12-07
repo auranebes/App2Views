@@ -16,23 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yRp-8L-n9f">
-                                <rect key="frame" x="20" y="50" width="388" height="842"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="yRp-8L-n9f">
+                                <rect key="frame" x="14" y="58" width="400" height="810"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="byr-uP-8bk">
-                                        <rect key="frame" x="0.0" y="0.0" width="388" height="411"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="388" id="EeQ-iU-fKf"/>
-                                            <constraint firstAttribute="height" constant="411" id="TB8-e7-Qeg"/>
+                                            <constraint firstAttribute="width" constant="400" id="EeQ-iU-fKf"/>
+                                            <constraint firstAttribute="height" constant="400" id="TB8-e7-Qeg"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zfs-6S-1tX">
-                                        <rect key="frame" x="0.0" y="431" width="388" height="411"/>
+                                        <rect key="frame" x="0.0" y="410" width="400" height="400"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="388" id="Zxa-gJ-bjn"/>
-                                            <constraint firstAttribute="height" constant="411" id="g3x-PE-1JP"/>
+                                            <constraint firstAttribute="width" constant="400" id="Zxa-gJ-bjn"/>
+                                            <constraint firstAttribute="height" constant="400" id="g3x-PE-1JP"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -42,10 +42,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                         <constraints>
-                            <constraint firstItem="yRp-8L-n9f" firstAttribute="bottom" secondItem="dH9-ES-ZeX" secondAttribute="bottom" id="Kh1-uY-JLy"/>
-                            <constraint firstItem="yRp-8L-n9f" firstAttribute="leading" secondItem="dH9-ES-ZeX" secondAttribute="leading" constant="20" id="eFf-du-fcx"/>
-                            <constraint firstItem="yRp-8L-n9f" firstAttribute="top" secondItem="dH9-ES-ZeX" secondAttribute="top" constant="6" id="jGi-11-k3F"/>
-                            <constraint firstItem="dH9-ES-ZeX" firstAttribute="trailing" secondItem="yRp-8L-n9f" secondAttribute="trailing" constant="20" id="wRV-Xd-V7b"/>
+                            <constraint firstItem="yRp-8L-n9f" firstAttribute="leading" secondItem="dH9-ES-ZeX" secondAttribute="leading" constant="14" id="12E-tj-brh"/>
+                            <constraint firstItem="dH9-ES-ZeX" firstAttribute="bottom" secondItem="yRp-8L-n9f" secondAttribute="bottom" constant="24" id="dQo-YQ-Vbl"/>
+                            <constraint firstItem="yRp-8L-n9f" firstAttribute="top" secondItem="dH9-ES-ZeX" secondAttribute="top" constant="14" id="i0g-c3-pk1"/>
+                            <constraint firstItem="dH9-ES-ZeX" firstAttribute="trailing" secondItem="yRp-8L-n9f" secondAttribute="trailing" constant="14" id="qDO-vI-z2B"/>
                         </constraints>
                     </view>
                 </viewController>
