@@ -16,23 +16,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="unc-9B-RRR">
-                                <rect key="frame" x="20" y="473" width="388" height="419"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="byr-uP-8bk">
-                                <rect key="frame" x="20" y="44" width="388" height="411"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
-                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yRp-8L-n9f">
+                                <rect key="frame" x="20" y="50" width="388" height="842"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="byr-uP-8bk">
+                                        <rect key="frame" x="0.0" y="0.0" width="388" height="411"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="388" id="EeQ-iU-fKf"/>
+                                            <constraint firstAttribute="height" constant="411" id="TB8-e7-Qeg"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zfs-6S-1tX">
+                                        <rect key="frame" x="0.0" y="431" width="388" height="411"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="388" id="Zxa-gJ-bjn"/>
+                                            <constraint firstAttribute="height" constant="411" id="g3x-PE-1JP"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dH9-ES-ZeX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                         <constraints>
-                            <constraint firstItem="unc-9B-RRR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3NJ-gM-Lvk"/>
-                            <constraint firstItem="unc-9B-RRR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4QX-14-WDg"/>
-                            <constraint firstItem="byr-uP-8bk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hwv-BS-C7c"/>
-                            <constraint firstItem="byr-uP-8bk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sDr-Yf-zVO"/>
+                            <constraint firstItem="yRp-8L-n9f" firstAttribute="bottom" secondItem="dH9-ES-ZeX" secondAttribute="bottom" id="Kh1-uY-JLy"/>
+                            <constraint firstItem="yRp-8L-n9f" firstAttribute="leading" secondItem="dH9-ES-ZeX" secondAttribute="leading" constant="20" id="eFf-du-fcx"/>
+                            <constraint firstItem="yRp-8L-n9f" firstAttribute="top" secondItem="dH9-ES-ZeX" secondAttribute="top" constant="6" id="jGi-11-k3F"/>
+                            <constraint firstItem="dH9-ES-ZeX" firstAttribute="trailing" secondItem="yRp-8L-n9f" secondAttribute="trailing" constant="20" id="wRV-Xd-V7b"/>
                         </constraints>
                     </view>
                 </viewController>
