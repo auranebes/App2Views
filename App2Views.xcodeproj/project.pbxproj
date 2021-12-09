@@ -13,6 +13,7 @@
 		983C52C0275EC52B0019B432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983C52BE275EC52B0019B432 /* Main.storyboard */; };
 		983C52C2275EC52D0019B432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983C52C1275EC52D0019B432 /* Assets.xcassets */; };
 		983C52C5275EC52D0019B432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983C52C3275EC52D0019B432 /* LaunchScreen.storyboard */; };
+		988CE63A2762863A00983F55 /* ViewControllerSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988CE6392762863A00983F55 /* ViewControllerSecond.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		983C52C1275EC52D0019B432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		983C52C4275EC52D0019B432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		983C52C6275EC52D0019B432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		988CE6392762863A00983F55 /* ViewControllerSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSecond.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				983C52BA275EC52B0019B432 /* SceneDelegate.swift */,
 				983C52BC275EC52B0019B432 /* ViewController.swift */,
 				983C52BE275EC52B0019B432 /* Main.storyboard */,
+				988CE6392762863A00983F55 /* ViewControllerSecond.swift */,
 				983C52C1275EC52D0019B432 /* Assets.xcassets */,
 				983C52C3275EC52D0019B432 /* LaunchScreen.storyboard */,
 				983C52C6275EC52D0019B432 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				988CE63A2762863A00983F55 /* ViewControllerSecond.swift in Sources */,
 				983C52BD275EC52B0019B432 /* ViewController.swift in Sources */,
 				983C52B9275EC52B0019B432 /* AppDelegate.swift in Sources */,
 				983C52BB275EC52B0019B432 /* SceneDelegate.swift in Sources */,
